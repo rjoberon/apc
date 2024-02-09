@@ -7,23 +7,24 @@ following reference circuit diagram which is based on the circuit from
 
 [[file:apc.png]]
 
-| source | R1 | R2   | R3   | R4   | R5  | C1   | C2    | C3    | Notes                                        |
-|--------+----+------+------+------+-----+------+-------+-------+----------------------------------------------|
-|     1. | 1k | 100k | 100k | 1k   | 470 | 10nF | 100nF | 100µF |                                              |
-|     2. | 1k | 470k | 470k | -    | -   | 10nF | 100nF | 10µF  |                                              |
-|     3. | 1k | 470k | 470k | -    | 10k | 10nF | 100nF | 10µF  | +R6 for line-out                             |
-|     4. | 1k | 500k | 500k | -    | 5k  | 10nF | 10nF  | -     | R5 is a variable resistor                    |
-|     5. | 1k | 1M   | 1M   | -    | 5k  | 10nF | 100nF | 10µF  | R5 is a variable resistor                    |
-|     6. | 1k | 100k | 100k | 1k   | 220 | 47µF | 47nF  | -     | 555s connected via pin 3 and 5               |
-|     7. | 1k | 500k | 500k | -    | -   | 10nF | 10nF  | 10µF  |                                              |
-|     8. | 1k | 500k | 500k | -    | 5k  | 10nF | 10nF  | 10µF  | R5 is a variable resistor, line-out option   |
-|     9. | 1k | 100k | 100k | -    | -   | 10nF | 100nF | 10µF  | including CV and GATE input                  |
-|    10. | 1k | 500k | 500k | 4.7k | -   | 10nF | 100nF | 10µF  |                                              |
-|    11. | 1k | 500k | 500k | -    | 10k | 10nF | 100nF | 10µF  | headphone out, 2x CV, R5 + variable resistor |
-|    12. | 1k | 1M   | 1M   | -    | 33  | 10nF | 100nF | 10µF  |                                              |
-|    13. | 1k | 470k | 470k | -    | -   | 10nF | 100nF | 10µF  |                                              |
-|--------+----+------+------+------+-----+------+-------+-------+----------------------------------------------|
-|   mode | 1k | 500k | 500k | -    | 5k  | 10nF | 100nF | 10µF  |                                              |
+| source | R1 | R2   | R3   | R4   | R5  | C1    | C2    | C3    | Notes                                        |
+|--------+----+------+------+------+-----+-------+-------+-------+----------------------------------------------|
+|     1. | 1k | 100k | 100k | 1k   | 470 | 10nF  | 100nF | 100µF |                                              |
+|     2. | 1k | 470k | 470k | -    | -   | 10nF  | 100nF | 10µF  |                                              |
+|     3. | 1k | 470k | 470k | -    | 10k | 10nF  | 100nF | 10µF  | +R6 for line-out                             |
+|     4. | 1k | 500k | 500k | -    | 5k  | 10nF  | 10nF  | -     | R5 is a variable resistor                    |
+|     5. | 1k | 1M   | 1M   | -    | 5k  | 10nF  | 100nF | 10µF  | R5 is a variable resistor                    |
+|     6. | 1k | 100k | 100k | 1k   | 220 | 47µF  | 47nF  | -     | 555s connected via pin 3 and 5               |
+|     7. | 1k | 500k | 500k | -    | -   | 10nF  | 10nF  | 10µF  |                                              |
+|     8. | 1k | 500k | 500k | -    | 5k  | 10nF  | 10nF  | 10µF  | R5 is a variable resistor, line-out option   |
+|     9. | 1k | 100k | 100k | -    | -   | 10nF  | 100nF | 10µF  | including CV and GATE input                  |
+|    10. | 1k | 500k | 500k | 4.7k | -   | 10nF  | 100nF | 10µF  |                                              |
+|    11. | 1k | 500k | 500k | -    | 10k | 10nF  | 100nF | 10µF  | headphone out, 2x CV, R5 + variable resistor |
+|    12. | 1k | 1M   | 1M   | -    | 33  | 10nF  | 100nF | 10µF  |                                              |
+|    13. | 1k | 470k | 470k | -    | -   | 10nF  | 100nF | 10µF  |                                              |
+|    14. | 1k | 500k | 500k | -    | 1k  | 100nF | 10µF  | 100nF |                                              |
+|--------+----+------+------+------+-----+-------+-------+-------+----------------------------------------------|
+|   mode | 1k | 500k | 500k | -    | 5k  | 10nF  | 100nF | 10µF  |                                              |
 
 Sources:
 1. [[https://www.build-electronic-circuits.com/atari-punk-console/][build-electronic-circuits.com]] ([[https://www.build-electronic-circuits.com/author/oyvind/][Øyvind Nydal Dahl]])
@@ -39,3 +40,4 @@ Sources:
 11. [[https://fritzing.org/projects/atari-punk-console-with-cv-inpus][Fritzing]] ([[https://fritzing.org/users/rcj4747][rcj4747]])
 12. [[https://www.tu.berlin/eecs/deinlab/projekt-atari-punk-console][dEIn Labor TU Berlin]]
 13. [[https://www.lushprojects.com/apc/lushprojects-atari-punk-console.pdf][Lushprojects.com]]
+14. [[https://andreassiagian.wordpress.com/2013/03/14/atari-punk-console-tutorial/atari-punk-console-schematic/][andreas siagian]]
