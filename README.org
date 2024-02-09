@@ -1,0 +1,37 @@
+* Atari Punk Console
+
+This page compares different variants of the Atari Punk Console (APC)
+circuit which I found on the Web. The comparison is against the
+following reference circuit diagram which is based on the circuit from
+[[https://www.build-electronic-circuits.com/atari-punk-console/][build-electronic-circuits.com]]:
+
+[[file:apc.png]]
+
+| source | R1 | R2   | R3   | R4   | R5  | C1   | C2    | C3    | Notes                                        |
+|--------+----+------+------+------+-----+------+-------+-------+----------------------------------------------|
+|     1. | 1k | 100k | 100k | 1k   | 470 | 10nF | 100nF | 100µF |                                              |
+|     2. | 1k | 470k | 470k | -    | -   | 10nF | 100nF | 10µF  |                                              |
+|     3. | 1k | 470k | 470k | -    | 10k | 10nF | 100nF | 10µF  | +R6 for line-out                             |
+|     4. | 1k | 500k | 500k | -    | 5k  | 10nF | 10nF  | -     | R5 is a variable resistor                    |
+|     5. | 1k | 1M   | 1M   | -    | 5k  | 10nF | 100nF | 10µF  | R5 is a variable resistor                    |
+|     6. | 1k | 100k | 100k | 1k   | 220 | 47µF | 47nF  | -     | 555s connected via pin 3 and 5               |
+|     7. | 1k | 500k | 500k | -    | -   | 10nF | 10nF  | 10µF  |                                              |
+|     8. | 1k | 500k | 500k | -    | 5k  | 10nF | 10nF  | 10µF  | R5 is a variable resistor, line-out option   |
+|     9. | 1k | 100k | 100k | -    | -   | 10nF | 100nF | 10µF  | including CV and GATE input                  |
+|    10. | 1k | 500k | 500k | 4.7k | -   | 10nF | 100nF | 10µF  |                                              |
+|    11. | 1k | 500k | 500k | -    | 10k | 10nF | 100nF | 10µF  | headphone out, 2x CV, R5 + variable resistor |
+|--------+----+------+------+------+-----+------+-------+-------+----------------------------------------------|
+|   mode | 1k | 500k | 500k | -    | 5k  | 10nF | 100nF | 10µF  |                                              |
+
+Sources:
+1. [[https://www.build-electronic-circuits.com/atari-punk-console/][build-electronic-circuits.com]] ([[https://www.build-electronic-circuits.com/author/oyvind/][Øyvind Nydal Dahl]])
+2. [[https://en.wikipedia.org/wiki/File:APC_with_2_555_(pin_out)_and_bridge_added.png][Wikipedia]], [[https://sdiy.info/wiki/Atari_Punk_Console][Synth DIY Wiki]]
+3. [[https://compiler.kaustic.net/machines/apc.html][kaustic machines]]
+4. [[http://alumni.media.mit.edu/~stefanm/HowTo/Electronics.html][MIT Media Lab]] ([[http://alumni.media.mit.edu/~stefanm/][Stefan Marti]] and Kimiko Ryokai)
+5. [[https://www.jameco.com/Jameco/workshop/diy/ataripunkconsole-kit.html][Jameco]]
+6. [[https://web.archive.org/web/20201016203932/https://sites.google.com/a/berklee.edu/jmdblog-491/customization/fmsynthesizerwithtwo555chips][JMD Music Sound and Blogs]]
+7. [[http://samvssound.com/projects/synthesizers/atari-punk-console/][Sam Vs. Sound]]
+8. [[https://www.instructables.com/Build-an-Atari-Punk-circuit-on-a-breadboard/][Instructables]] ([[https://www.instructables.com/member/BrownDogGadgets/][BrownDogGadgets]])
+9. [[https://www.matthewedmondson.com/atari-punk-console][Matthew Edmondson]] (the breadboard view with CV input)
+10. [[https://www.instructables.com/Atari-Punk-Console-Synthesizer/][Instructables]] ([[https://www.instructables.com/member/randofo/][randofo]])
+11. [[https://fritzing.org/projects/atari-punk-console-with-cv-inpus][Fritzing]] ([[https://fritzing.org/users/rcj4747][rcj4747]])
