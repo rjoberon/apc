@@ -20,6 +20,7 @@ following reference circuit diagram which is based on the circuit from
 |     9. | 1k | 100k | 100k | -    | -   | 10nF | 100nF | 10µF  | including CV and GATE input                  |
 |    10. | 1k | 500k | 500k | 4.7k | -   | 10nF | 100nF | 10µF  |                                              |
 |    11. | 1k | 500k | 500k | -    | 10k | 10nF | 100nF | 10µF  | headphone out, 2x CV, R5 + variable resistor |
+|    12. | 1k | 1M   | 1M   | .    | 33  | 10nF | 100nF | 10µF  |                                              |
 |--------+----+------+------+------+-----+------+-------+-------+----------------------------------------------|
 |   mode | 1k | 500k | 500k | -    | 5k  | 10nF | 100nF | 10µF  |                                              |
 
@@ -35,3 +36,4 @@ Sources:
 9. [[https://www.matthewedmondson.com/atari-punk-console][Matthew Edmondson]] (the breadboard view with CV input)
 10. [[https://www.instructables.com/Atari-Punk-Console-Synthesizer/][Instructables]] ([[https://www.instructables.com/member/randofo/][randofo]])
 11. [[https://fritzing.org/projects/atari-punk-console-with-cv-inpus][Fritzing]] ([[https://fritzing.org/users/rcj4747][rcj4747]])
+12. [[https://www.tu.berlin/eecs/deinlab/projekt-atari-punk-console][dEIn Labor TU Berlin]]
