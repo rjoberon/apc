@@ -41,3 +41,7 @@ Sources:
 12. [[https://www.tu.berlin/eecs/deinlab/projekt-atari-punk-console][dEIn Labor TU Berlin]]
 13. [[https://www.lushprojects.com/apc/lushprojects-atari-punk-console.pdf][Lushprojects.com]]
 14. [[https://andreassiagian.wordpress.com/2013/03/14/atari-punk-console-tutorial/atari-punk-console-schematic/][andreas siagian]]
+
+** Other Links
+
+- [[https://gr33nonline.wordpress.com/2018/03/31/atari-punx/][a good overview and comparison]]
