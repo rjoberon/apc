@@ -23,6 +23,7 @@ following reference circuit diagram which is based on the circuit from
 |    12. | 1k | 1M   | 1M   | -    | 33  | 10nF  | 100nF | 10µF  |                                              |
 |    13. | 1k | 470k | 470k | -    | -   | 10nF  | 100nF | 10µF  |                                              |
 |    14. | 1k | 500k | 500k | -    | 1k  | 100nF | 10µF  | 100nF |                                              |
+| 15.    |    |      |      |      |     |       |       |       |                                              |
 |--------+----+------+------+------+-----+-------+-------+-------+----------------------------------------------|
 |   mode | 1k | 500k | 500k | -    | 5k  | 10nF  | 100nF | 10µF  |                                              |
 
@@ -41,6 +42,8 @@ Sources:
 12. [[https://www.tu.berlin/eecs/deinlab/projekt-atari-punk-console][dEIn Labor TU Berlin]]
 13. [[https://www.lushprojects.com/apc/lushprojects-atari-punk-console.pdf][Lushprojects.com]]
 14. [[https://andreassiagian.wordpress.com/2013/03/14/atari-punk-console-tutorial/atari-punk-console-schematic/][andreas siagian]]
+15. [[https://www.pcbway.com/project/shareproject/Atari_Punk_Console_Analogic_Noise_db90985f.html][Bolaños Hernando]]
+
 
 ** Other Links
 
